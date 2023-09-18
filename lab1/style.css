@@ -1,0 +1,43 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and text colors */
+body {
+    background-color: #E6E6FA; /* Light coral background color */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section with animation */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    animation: headerFadeIn 1.5s ease; /* Header fade-in animation */
+}
+
+/* Style headings */
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #ffffff; /* Dark text color */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Style the bio section */
+.bio {
+    background-color: #123456;
+    color: #fff;
+    padding: 2rem;
+}
+
+.webexperience {
+    margin-top: 2px;
+    padding: 2rem;
+}
